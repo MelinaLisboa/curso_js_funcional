@@ -1,7 +1,7 @@
 const rxjs = require('rxjs')
 
-//destructuring
-const { interval } = rxjs
+//Interval é um operador de criação
+const { interval } = rxjs //destructuring
 
 const gerarNumeros = interval(500)
 
